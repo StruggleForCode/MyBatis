@@ -1,4 +1,6 @@
-package org.god.ibatis.core;
+package org.god.ibatis.transaction.impl;
+
+import org.god.ibatis.transaction.Transaction;
 
 import javax.sql.DataSource;
 import java.sql.Connection;
@@ -10,7 +12,7 @@ import java.sql.SQLException;
  * @version 1.0
  * @since 1.0
  */
-public class JdbcTransaction implements Transaction{
+public class JdbcTransaction implements Transaction {
 
     /**
      * 数据源属性

@@ -1,4 +1,4 @@
-package org.god.ibatis.core;
+package org.god.ibatis.model;
 
 import java.io.PrintWriter;
 import java.sql.Connection;

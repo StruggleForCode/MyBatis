@@ -1,5 +1,7 @@
 package org.god.ibatis.core;
 
+import org.god.ibatis.model.MappedStatement;
+
 import java.lang.reflect.Method;
 import java.sql.*;
 

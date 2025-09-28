@@ -1,4 +1,4 @@
-package org.god.ibatis.core;
+package org.god.ibatis.model;
 
 /**
  * 普通的java类。POJO，封装了一个SQL标签。

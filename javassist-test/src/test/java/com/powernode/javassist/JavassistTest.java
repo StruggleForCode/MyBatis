@@ -105,7 +105,7 @@ public class JavassistTest {
         ClassPool pool = ClassPool.getDefault();
         // 制造类（需要告诉javassist，类名是啥）
         CtClass ctClass = pool.makeClass("com.powernode.bank.dao.impl.AccountDaoImpl");
-        // 制造方法
+         // 制造方法
         String methodCode = "public void insert(){System.out.println(123);}";
         CtMethod ctMethod = CtMethod.make(methodCode, ctClass);
         // 将方法添加到类中

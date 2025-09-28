@@ -1,10 +1,17 @@
 package org.god.ibatis.core;
 
 import org.dom4j.Document;
-import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.Node;
 import org.dom4j.io.SAXReader;
+import org.god.ibatis.constant.Const;
+import org.god.ibatis.model.JNDIDataSource;
+import org.god.ibatis.model.PooledDataSource;
+import org.god.ibatis.model.UnPooledDataSource;
+import org.god.ibatis.model.MappedStatement;
+import org.god.ibatis.transaction.Transaction;
+import org.god.ibatis.transaction.impl.JdbcTransaction;
+import org.god.ibatis.transaction.impl.ManagedTransaction;
 import org.god.ibatis.utils.Resources;
 
 import javax.sql.DataSource;

@@ -1,4 +1,4 @@
-package org.god.ibatis.core;
+package org.god.ibatis.constant;
 
 /**
  * 整个godbatis框架的常量类

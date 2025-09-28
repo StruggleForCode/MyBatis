@@ -1,5 +1,8 @@
 package org.god.ibatis.core;
 
+import org.god.ibatis.model.MappedStatement;
+import org.god.ibatis.transaction.Transaction;
+
 import java.util.Map;
 
 /**

@@ -1,4 +1,4 @@
-package org.god.ibatis.core;
+package org.god.ibatis.transaction;
 
 import java.sql.Connection;
 

@@ -1,4 +1,6 @@
-package org.god.ibatis.core;
+package org.god.ibatis.transaction.impl;
+
+import org.god.ibatis.transaction.Transaction;
 
 import java.sql.Connection;
 
@@ -9,7 +11,7 @@ import java.sql.Connection;
  * @version 1.0
  * @since 1.0
  */
-public class ManagedTransaction implements Transaction{
+public class ManagedTransaction implements Transaction {
 
     @Override
     public void commit() {
